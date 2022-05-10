@@ -1,7 +1,10 @@
 #How to run app locally?
 mvn spring-boot:run
 
-#How to Test rewards endpoint?
+#How to check application running status?
+curl http://localhost:8080/rewards-service/actuator/health
+
+#How to test rewards endpoint?
 curl -X POST \
 http://localhost:8080/rewards-service/reward/points \
 -H 'accept: application/json' \
