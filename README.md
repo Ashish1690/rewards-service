@@ -1,7 +1,7 @@
-#How to run app locally?
+How to run app locally?
 mvn spring-boot:run
 
-#How to Test rewards endpoint?
+How to Test rewards endpoint?
 curl -X POST \
 http://localhost:8080/rewards-service/reward/points \
 -H 'accept: application/json' \
@@ -11,5 +11,5 @@ http://localhost:8080/rewards-service/reward/points \
 "transactionAmount" : 120
 }'
 
-#Unit test
+Unit test
 All possible scenarios has been tested
